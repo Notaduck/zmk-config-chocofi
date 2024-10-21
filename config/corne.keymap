@@ -9,14 +9,8 @@
 
 // layers
 #define DEF     0
-#define NUM     1
-#define SYM     2
-
-
-#define ML_NUM &mo NUM 
-#define ML_SYM &mo SYM 
-
-
+// #define NUM     1
+// #define SYM     2
 
 // Layer switching
 #define SECLTHMB  &ltsk  MEDIA    LSHIFT  // tap for sticky shift : hold for media layer
@@ -46,8 +40,8 @@
 #define _SPC_     &kp  SPACE
 #define _RET_     &kp RETURN 
 
-#define _MONUM_ &mo NUM
-#define _MOSYM_ &mo SYM
+// #define _MONUM_ &mo NUM
+// #define _MOSYM_ &mo SYM
 
 #define OUTTOG   &out OUT_TOG // toggle keyboard output bluetooth/usb
 #define ___      &trans      //  transparent
@@ -78,7 +72,7 @@
         // │    Z    │    X    │    C    │    V    │    B    │   │    N    │    M    │   ,/;   │   ./:   │    /    │
             &kp Z     &kp X     &kp C     &kp V     &kp B         &kp N     &kp M     &cma_smi  &dot_cln  &kp FSLH
         // ╰─────────┼─────────┼─────────┼─────────┼─────────┤   ├─────────┼─────────┼─────────┼─────────┼─────────╯
-                                  _LWIN_     _MONUM_     _SPC_             _RET_      _MOSYM_      _RALT_
+                                  _LWIN_     _x_    _SPC_             _RET_      _x_      _RALT_
         //                     ╰─────────────────────────────╯   ╰─────────────────────────────╯
       >;
     };
