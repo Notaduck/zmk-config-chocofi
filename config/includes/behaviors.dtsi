@@ -47,3 +47,14 @@
 
 MAKE_HRM(hml, &kp, &kp, LEFT_KEYS THUMB_KEYS)    // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, RIGHT_KEYS THUMB_KEYS)  // right-hand HRMs
+
+ZMK_BEHAVIOR(cma_smi, mod_morph, \
+  bindings = <&kp COMMA>, <&kp SEMI>; \
+  mods = <(MOD_LSFT)>; \
+)
+
+// Tap for period, shift + tap for colon
+ZMK_BEHAVIOR(dot_cln, mod_morph, \
+  bindings = <&kp DOT>, <&kp COLON>; \
+  mods = <(MOD_LSFT)>; \
+)
