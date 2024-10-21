@@ -10,9 +10,11 @@
 // layers
 #define DEF     0
 #define NUM     1
-#define NAV     2
-#define MEDIA   3
-#define FUN     4
+#define SYM     2
+
+
+#define ML_NUM &mo NUM 
+#define ML_SYM &mo SYM 
 
 
 
@@ -67,7 +69,7 @@
 // │    Z    │    X    │    C    │    V    │    B    │   │    N    │    M    │   ,/;   │   ./:   │    /    │
     &kp Z     &kp X     &kp C     &kp V     &kp B         &kp N     &kp M     &cma_smi  &dot_cln  &kp FSLH
 // ╰─────────┼─────────┼─────────┼─────────┼─────────┤   ├─────────┼─────────┼─────────┼─────────┼─────────╯
-                         &kp LEFT_WIN    _x_       _x_      _x_  _x_  _x_
+                         &kp LEFT_WIN    &mo NUM &kp SPACE       &kp RETURN      &mo SYM &kp RIGHT_ALT
 //                     ╰─────────────────────────────╯   ╰─────────────────────────────╯
       >;
     };
