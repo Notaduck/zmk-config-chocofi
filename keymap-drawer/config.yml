@@ -215,6 +215,7 @@ parse_config:
     TAB: $$mdi:keyboard-tab$$
     LS(TAB): $$mdi:keyboard-tab-reverse$$
     SPACE: $$mdi:keyboard-space$$
+    _SPC_: $$mdi:keyboard-space$$
     BACKSPACE:
       type: backspace
       tap: $$mdi:backspace$$
