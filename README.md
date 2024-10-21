@@ -6,4 +6,4 @@ This is my [ZMK firmware](https://github.com/zmkfirmware/zmk/) configuration for
 
 ![](keymap-drawer/corne.svg)
 
-
+The keymap are auutomtically updated with aksoylar's [keymap-drawer](https://github.com/caksoylar/keymap-drawer)
