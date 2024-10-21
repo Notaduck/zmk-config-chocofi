@@ -1,3 +1,34 @@
+draw_config:
+  # Key dimensions
+  key_w: 60     # Width of each key
+  key_h: 56     # Height of each key
+
+  # Outline settings
+  outline:
+    stroke_width: 2  # Width of the outline
+    stroke_color: "#000000"  # Color of the outline (black)
+    fill_color: "transparent"  # Fill color (transparent for just an outline)
+
+  # Padding settings
+  outer_pad_w: 10  # Padding around the keyboard outline
+  outer_pad_h: 10  # Padding between layers, if applicable
+  inner_pad_w: 2   # Padding between keys horizontally
+  inner_pad_h: 2   # Padding between keys vertically
+
+  # Key curvature
+  key_rx: 6  # Rounded corners of the keys
+  key_ry: 6
+
+  # Additional settings
+  n_columns: 1  # Number of columns for layers
+  dark_mode: false  # Enable dark mode if needed
+  svg_style: |
+    .keyboard-outline {
+      stroke: {{ outline.stroke_color }};
+      stroke-width: {{ outline.stroke_width }};
+      fill: {{ outline.fill_color }};
+    }
+
 # draw_config:
 #   # key dimensions, non-ortho layouts use key_h for width as well
 #   # key_w: 100 # This doesn't seem to do anything? 🤔
