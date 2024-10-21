@@ -41,13 +41,13 @@
 #define BVOLD    &kp  K_VOL_DN
 #define BVOLU    &kp  K_VOL_UP
 
-#define LWIN    &kp  LEFT_WIN
-#define RALT    &kp  RIGHT_ALT
-#define SPC     &kp  SPACE
-#define RET     &kp RETURN 
+#define _LWIN_    &kp  LEFT_WIN
+#define _RALT_    &kp  RIGHT_ALT
+#define _SPC_     &kp  SPACE
+#define _RET_     &kp RETURN 
 
-#define MONUM &mo NUM
-#define MOSYM &mo SYM
+#define _MONUM_ &mo NUM
+#define _MOSYM_ &mo SYM
 
 #define OUTTOG   &out OUT_TOG // toggle keyboard output bluetooth/usb
 #define ___      &trans      //  transparent
@@ -78,7 +78,7 @@
         // │    Z    │    X    │    C    │    V    │    B    │   │    N    │    M    │   ,/;   │   ./:   │    /    │
             &kp Z     &kp X     &kp C     &kp V     &kp B         &kp N     &kp M     &cma_smi  &dot_cln  &kp FSLH
         // ╰─────────┼─────────┼─────────┼─────────┼─────────┤   ├─────────┼─────────┼─────────┼─────────┼─────────╯
-                                  LWIN     MONUM     SPC             RET      MOSYM      RALT
+                                  _LWIN_     _MONUM_     _SPC_             _RET_      _MOSYM_      _RALT_
         //                     ╰─────────────────────────────╯   ╰─────────────────────────────╯
       >;
     };
